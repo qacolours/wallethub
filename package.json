@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "preinstall":"npm cache clear",
+    "test": "./testcases/protractor conf.js"
   },
   "keywords": [],
   "author": "",
