@@ -1,7 +1,8 @@
 const { element, protractor, browser } = require("protractor");
 const obj_filesync = require('fs');
 
-let json_rawdata = obj_filesync.readFileSync(".\\..\\testdata\\testdata.json")
+//let json_rawdata = obj_filesync.readFileSync(".\\..\\testdata\\testdata.json")
+let json_rawdata = obj_filesync.readFileSync("C:\\protractor\\projects\\wallethub\\testdata\\testdata.json")
 let json_parseddata = JSON.parse(json_rawdata)
 
 class review_page {
